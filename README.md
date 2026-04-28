@@ -6,6 +6,8 @@ Web application for daily tracking of emotional state with visualization of dyna
 The project was created to help users track the relationship between their activity and mood. All data is stored locally, which ensures privacy and quick access to history without the need for a backend.
 
 ## Screenshots
+<img width="1897" height="884" alt="image" src="https://github.com/user-attachments/assets/991554be-24fa-4e08-aad2-dfa9b9a77c36" />
+<img width="1920" height="882" alt="image" src="https://github.com/user-attachments/assets/0246a322-1c46-4018-855f-3f0add329333" />
 
 ### Live Demo
 
