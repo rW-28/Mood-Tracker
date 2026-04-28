@@ -10,6 +10,7 @@ The project was created to help users track the relationship between their activ
 <img width="1920" height="882" alt="image" src="https://github.com/user-attachments/assets/0246a322-1c46-4018-855f-3f0add329333" />
 
 ### Live Demo
+https://rw-28.github.io/Mood-Tracker/
 
 ## Technologies Used
 - **JavaScript (ES6+)**: The logic of data processing and working with the DOM.
@@ -31,3 +32,4 @@ The project was created to help users track the relationship between their activ
 ## How to use
 1. Clone the repository: `git clone https://github.com/your_name/mood-tracker.git`
 2. Open `index.html` in your browser.
+3. To see the full functionalty, add a couple of entries to see the dynamic changes in the graph.
