@@ -6,8 +6,11 @@ Web application for daily tracking of emotional state with visualization of dyna
 The project was created to help users track the relationship between their activity and mood. All data is stored locally, which ensures privacy and quick access to history without the need for a backend.
 
 ## Screenshots
+<img width="1897" height="884" alt="image" src="https://github.com/user-attachments/assets/991554be-24fa-4e08-aad2-dfa9b9a77c36" />
+<img width="1920" height="882" alt="image" src="https://github.com/user-attachments/assets/0246a322-1c46-4018-855f-3f0add329333" />
 
 ### Live Demo
+https://rw-28.github.io/Mood-Tracker/
 
 ## Technologies Used
 - **JavaScript (ES6+)**: The logic of data processing and working with the DOM.
@@ -29,3 +32,4 @@ The project was created to help users track the relationship between their activ
 ## How to use
 1. Clone the repository: `git clone https://github.com/your_name/mood-tracker.git`
 2. Open `index.html` in your browser.
+3. To see the full functionalty, add a couple of entries to see the dynamic changes in the graph.
