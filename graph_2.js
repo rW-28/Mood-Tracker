@@ -8,14 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //get an array of scales only
     const valuesY = data.map(entry => entry.scale);
+    const valuesZ = data.map(entry => entry.anxiety);
 
     //get an array of dates only
     const labelsX = data.map(entry => {
-    const d = new Date(entry.date);
-    //make the dates display as two numbers
-    const day = String(d.getDate()).padStart(2, '0');
-    const month = String(d.getMonth() + 1).padStart(2, '0'); 
-    return `${day}.${month}`;
+      const d = new Date(entry.date);
+      //make the dates display as two numbers
+      const day = String(d.getDate()).padStart(2, '0');
+      const month = String(d.getMonth() + 1).padStart(2, '0'); 
+      return `${day}.${month}`;
 });
     //creating a scrollbar
     const minWidth = 800;
@@ -29,9 +30,18 @@ document.addEventListener("DOMContentLoaded", () => {
     type: 'line',
     data: {
       labels: labelsX,
-      datasets: [{
+      datasets: [
+        {
+        data: valuesZ,
+        label: 'anxiety',
+        borderColor: 'rgba(195, 28, 214, 0.7)',
+        tension: 0.1,
+        fill: false,
+        borderWidth: 2
+      },
+      {
         data: valuesY,
-        label: 'status',
+        label: 'mood',
         borderColor: 'rgba(28, 214, 37, 0.7)',
         backgroundColor: 'rgba(28, 214, 37, 0.7)',
         tension: 0.1,

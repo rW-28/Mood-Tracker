@@ -5,9 +5,10 @@ document.getElementById("form").addEventListener("submit", function(e) {
     const date = document.getElementById("date").value;
     const scale = Number(document.getElementById("scale").value);
     const note = document.getElementById("note").value;
+    const anxiety = Number(document.getElementById("anxiety").value);
 
     //create an object that holds these variables
-    const entry = {date, scale, note};
+    const entry = {date, scale, note, anxiety};
 
     //first, check if there's anything in localStorage now
     const arr = JSON.parse(localStorage.getItem("moodHistory")) || [];
